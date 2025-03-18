@@ -4,7 +4,13 @@ li {
 =======
 .hButton {
   background-color: green;
+  color: white;
+  transition: background-color 0.3s;
   border: 0;
   border-radius: 15px;
 >>>>>>> 617d3bd (feature: button 기능 추가 #4)
+}
+
+.hButton.active {
+  background-color: red;
 }
